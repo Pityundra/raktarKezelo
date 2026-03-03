@@ -1,3 +1,5 @@
+Kolozsi István - Raktárkészlet php feladat
+
 Készíts el egy raktárkészletkezelő alkalmazást egy áruházlánc számára! A vállalat több telephelyen rendelkezik raktárral. Tervezz egy osztályhierarchiát, amivel modellezni tudsz:
 
     raktárat (megnevezés, cím, kapacitás, raktárkészlet, ...),
