@@ -28,7 +28,7 @@ $collar = new Collar("123456789", "Nyakörv", "4.500 Ft", $collarful, "10g", "M"
 $treat = new Treat("987654321", "Jutifalat", "1.500 Ft", $britCare, "150g", "bárány");
 
 // Raktárak
-$center = new Storage("Központi raktár", "Valahol", 5, "0");
+$center = new Storage("Központi raktár", "Valahol", 5, "0km");
 $countrySide = new Storage("Vidéki raktár", "Vidéken", 3, "250km");
 
 $controller = new StorageController([$center, $countrySide]);

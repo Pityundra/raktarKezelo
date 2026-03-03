@@ -36,12 +36,10 @@ $controller = new StorageController([$center, $countrySide]);
 // Raktárak feltöltése (több mint amennyi a kapacitás)
 $controller->productStorageLoad($center, $leash);
 $controller->productStorageLoad($center, $collar);
-$controller->productStorageLoad($center, $treat);
-$controller->productStorageLoad($center, $treat);
 $controller->productStorageLoad($countrySide, $treat);
 $controller->productStorageLoad($countrySide, $treat);
-$controller->productStorageLoad($countrySide, $collar);
-$controller->productStorageLoad($countrySide, $collar);
+$controller->productStorageLoad($countrySide, $treat);
+$controller->productStorageLoad($countrySide, $treat);
 $controller->productStorageLoad($countrySide, $treat);
 $controller->productStorageLoad($countrySide, $treat);
 $controller->productStorageLoad($countrySide, $treat);
